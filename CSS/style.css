@@ -1,0 +1,96 @@
+.fondo1{
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 125%;
+}
+header{
+    background-color: #4A4A4A;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    color: #fff;
+    font-size: 36px;
+    margin: 10px;
+    text-decoration: none;
+}
+.productos img{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.productos h2 {
+    color: #fff;
+    font-size: 64px;
+    text-align: center;
+}
+.producto-content {
+    display: flex;
+    flex-direction: row;
+}
+.producto-content img {
+    margin-top: 20px;
+}
+.producto-content p{
+    color: #fff;
+    font-size: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.inicio {
+    padding: 0px 400px 0px 400px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    margin-left: 100px;  
+}
+.tema {
+    color: #fff;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+}
+.grupo {
+    display: flex;
+    flex-direction: row;
+}
+.fondo2 {
+    background: linear-gradient( to right, #7D99A5, #4D8A98);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.tema2 {
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social h2{
+    font-size: 50px;
+    margin-left: 50px;
+}
+.social img {
+    margin: 15px;
+}
+.social p {
+    font-size: 36px;
+    text-align: center;
+}
+.grupo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
