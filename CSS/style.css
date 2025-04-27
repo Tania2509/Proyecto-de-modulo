@@ -119,7 +119,7 @@ footer {
         font-size: 5px;
     }
     header img {
-        width:100px ;
+        width:90px ;
     }
     header nav {
         display: flex;
@@ -172,7 +172,7 @@ footer {
         justify-content: center
     }
     .mapa img {
-        width: 400px;
+        width: 350px;
     }
     .grupo2 {
         display: flex;
@@ -188,14 +188,15 @@ footer {
         flex-direction: row;
     }
     .social h2{
-        font-size:30px ;
+        font-size:25px ;
+        text-align: centers;
     }
     .social p {
         font-size:20px;
         
     }
-    .social h2 {
-        font-size:30px ;
-        text-align: centers;
+    .grupo2 {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
