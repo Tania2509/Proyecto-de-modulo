@@ -5,6 +5,11 @@
     background-repeat: no-repeat;
     background-size: 180%;
 }
+.fondo2 {
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 180%;
+}
 header{
     background-color: #4A4A4A;
     padding: 25px;
@@ -111,20 +116,13 @@ footer {
 }
 @media (width <= 500px) {
 
-    header{
-        padding: auto;  
+    header {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        font-size: 5px;
+        justify-content: space-evenly;
     }
     header img {
-        width:90px ;
-    }
-    header nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
+        width:80px ;
     }
     header a {
         font-size: 15px;
@@ -172,7 +170,7 @@ footer {
         justify-content: center
     }
     .mapa img {
-        width: 350px;
+        width: 325px;
     }
     .grupo2 {
         display: flex;
